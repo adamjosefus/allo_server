@@ -21,6 +21,11 @@ export class Server {
     }
 
 
+    /**
+     * @param {ListenOptions} options 
+     * @param {string} certFile *(Optional)*
+     * @param {string} keyFile *(Optional)*
+     */
     listen(...entry: ListenEntryType) {
         const server = (() => {
             if (entry.length === 3) {
