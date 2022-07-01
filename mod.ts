@@ -1,1 +1,1 @@
-export * from "./libs/Server.ts"
+export * from "./model/Server.ts"
